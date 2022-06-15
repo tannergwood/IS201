@@ -1,0 +1,37 @@
+/*This changes the font and the color of the main titles on the index and about pages*/
+h1 {
+  color: snow;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+/*This changes the font and color of the header 2's in the index and about pages*/
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(23, 22, 22);
+}
+
+/*This changes the color of the words underneath the h1 tags */
+.subtitle {
+  color: snow;
+}
+
+/*This makes the texts in the ordered and unordered lists less bold*/
+.resumeContent {
+  font-weight: lighter;
+}
+
+/*This italicizes the job positions in work experience in the resume*/
+.italics {
+  font-style: italic;
+}
+
+/*This changes the color and adds a border on the anchor buttons*/
+.colorAnchor {
+  background-color: rgb(1, 82, 19);
+  border: solid snow;
+}
+
+/*This aligns the images in the resume to the center*/
+.centerimg {
+  text-align: center;
+}

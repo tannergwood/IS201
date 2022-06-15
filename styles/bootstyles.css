@@ -1,0 +1,47 @@
+/*This changes the color, height/size of the header and where the buttons are spaced*/
+#header {
+  height: 100px;
+  background-color: cadetblue;
+  line-height: 100px;
+}
+
+/*This changes the background color for main part of the webpage*/
+.common {
+  height: auto;
+  line-height: auto;
+  text-align: center;
+  background-color: navajowhite;
+}
+
+/*This changes the size of the footer and the color of it and where the text is located inside of it*/
+#footer {
+  height: 75px;
+  background-color: cadetblue;
+  line-height: 75px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: small;
+}
+
+/*This changes the width and height of the tableau graphs and adds a border to them*/
+.tableauPlaceholder {
+  border: solid black;
+  height: 55%;
+  width: 55%;
+}
+
+/*this changes the title of Tableau Charts to a different font family and then underlines it */
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: underline;
+}
+
+/*This makes the chart descriptions bold and little bit larger*/
+p {
+  font-weight: bold;
+  font-size: larger;
+}
+
+/*This changes the all of the background to the navajowhite color*/
+body {
+  background-color: navajowhite;
+}
